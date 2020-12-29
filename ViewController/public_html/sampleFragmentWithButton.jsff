@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jsp:root xmlns:jsp="http://java.sun.com/JSP/Page" version="2.1" xmlns:af="http://xmlns.oracle.com/adf/faces/rich"
+          xmlns:f="http://java.sun.com/jsf/core">
+  <af:panelBox text="PanelBox1" id="pb1">
+    <f:facet name="toolbar"/>
+    <af:inputText label="input 1"/>
+    <af:inputText label="input 2"/>
+    <af:inputText label="input 3"/>
+    <af:inputText label="input 4"/>
+    <af:button text="pressByEnter" clientComponent="true" id="btn" action="#{testBean.btn_action}"/>
+  </af:panelBox>
+  <!--oracle-jdev-comment:preferred-managed-bean-name:testBean-->
+</jsp:root>
